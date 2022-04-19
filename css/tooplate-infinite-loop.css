@@ -36,7 +36,7 @@ a:focus {
 }
 
 .btn:hover {
-  background-color: #ced4da;
+  background-color: #f1eded;
 }
 
 blockquote {
@@ -63,14 +63,14 @@ blockquote {
 }
 
 .tm-btn-primary {
-  color: white;
+  color: rgb(243, 241, 241);
   background-color: #369;
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
-  color: white;
+  color: rgb(253, 251, 251);
   background-color: #38B;
 }
 
@@ -90,7 +90,7 @@ blockquote {
 }
 
 .navbar-brand {
-  color: white;
+  color: rgb(49, 51, 51);
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -109,7 +109,7 @@ blockquote {
 }
 
 .tm-nav-link {
-  color: white;
+  color: rgb(15, 1, 1);
 }
 
 .tm-navbar.scroll .tm-nav-link {
@@ -119,12 +119,12 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #FFF;
+  color: rgb(247, 238, 238);
   background-color: #369;
 }
 
 .navbar-toggler {
-  border: 1px solid white;
+  border: 1px solid rgb(255, 249, 249);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -145,8 +145,8 @@ blockquote {
 /* Hero */
 
 #infinite {
-	background-color: #222;
-  background-image: url(../img/maquillaje.jpg);
+	background-color: rgb(247, 195, 234);
+  background-image: url(../img/fondo4.webp);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -196,12 +196,14 @@ blockquote {
 }
 
 .tm-hero-title {
+  color: #020202;
   font-size: 3.5rem;
-  text-shadow: 2px 2px 2px #333;
+  text-shadow: 2px 2px 2px rgb(255, 253, 253);
 }
 
 .tm-hero-subtitle {
-  text-shadow: 2px 2px 2px #333;
+  color: #030303;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 .tm-intro-next {
@@ -268,7 +270,7 @@ blockquote {
 /* Testimonials */
 #testimonials {
   color: white;
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/fondo3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
